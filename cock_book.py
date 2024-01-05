@@ -25,6 +25,7 @@ def create_cook_book(file_name):
                 ingredients.append(ingredient)
 
             cook_book[dish] = ingredients
+            file.readline()
 
     return cook_book
 
